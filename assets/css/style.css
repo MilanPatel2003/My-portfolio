@@ -1017,6 +1017,8 @@ textarea.input {
 /*=============== FOOTER ===============*/
 .footer{
   padding-top: 2rem;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+
 }
 
 .footer_container{
