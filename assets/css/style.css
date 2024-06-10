@@ -266,7 +266,7 @@ input {
 
 /*===== Home Section =====*/
 .home {
-  background: url("../img/myimage123.png");
+  background: url("../img/myimage123-removebg.png");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -1322,7 +1322,7 @@ body::-webkit-scrollbar-thumb {
   }
   .home_img{
     display: block;
-    width: 250px;
+    width: 340px;
     justify-self:center ;
   }
   .home_social{
@@ -1370,7 +1370,14 @@ body::-webkit-scrollbar-thumb {
   .footer_links{
     justify-self: flex-start;
   }
+
+  #home > div > div.home_social > span{
+    padding-right: 20px;
+  }
   
+  .services_modal-icon{
+    padding-right: 12px;
+  }
 
 }
 
